@@ -1,0 +1,18 @@
+<template>
+    <div class="slds-m-top_small">
+        <lightning-input 
+             class="slds-size_2-of-12" 
+             label="Account ID" 
+             placeholder="Enter the record Id here" 
+             onchange={handleAccountIdChange}>
+         </lightning-input>
+     </div>
+     <div class="slds-m-top_small">
+         <lightning-button
+             class="slds-m-top_small"
+             variant="brand"
+             label="Show Account Details"
+             onclick={dispatchShowDetailsEvent}>
+         </lightning-button>
+     </div> 
+</template>
