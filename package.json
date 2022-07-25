@@ -1,0 +1,23 @@
+{
+  "name": "bear-lwc",
+  "version": "1.0.0",
+  "description": "We are not accepting contributions on this app.",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "lwc-jest",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chia-ju-lin/bear-lwc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chia-ju-lin/bear-lwc/issues"
+  },
+  "homepage": "https://github.com/chia-ju-lin/bear-lwc#readme",
+  "devDependencies": {
+    "@salesforce/lwc-jest": "^0.6.2"
+  }
+}
